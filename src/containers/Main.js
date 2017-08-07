@@ -2,18 +2,21 @@ import React, {Component} from 'react'
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider'
 import injectTapEventPlugin from 'react-tap-event-plugin'
 import RaisedButton from 'material-ui/RaisedButton'
+import DrawShare from '../components/DrawShare.js'
+import TypeShare from '../components/TypeShare.js'
 
-class Profile extends Component {
+class Main extends Component {
 
   render(){
     return (
       <MuiThemeProvider>
         <div>
-          <h2>Profile!</h2>
+          <DrawShare></DrawShare>
+          <TypeShare></TypeShare>
         </div>
       </MuiThemeProvider>
     )
   }
 }
 
-export default Profile
+export default Main
