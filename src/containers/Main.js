@@ -4,6 +4,8 @@ import injectTapEventPlugin from 'react-tap-event-plugin'
 import RaisedButton from 'material-ui/RaisedButton'
 import DrawShare from '../components/DrawShare.js'
 import TypeShare from '../components/TypeShare.js'
+import styled from 'styled-components'
+
 
 class Main extends Component {
 
