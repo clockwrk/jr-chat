@@ -8,7 +8,7 @@ class InputBar extends Component {
     return (
 
         <div>
-          <RaisedButton></RaisedButton>
+          <RaisedButton>Submit</RaisedButton>
           <TextField></TextField>
         </div>
 

@@ -2,6 +2,11 @@ import React, {Component} from 'react'
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider'
 import injectTapEventPlugin from 'react-tap-event-plugin'
 import RaisedButton from 'material-ui/RaisedButton'
+import styled from 'styled-components';
+
+const App = styled.App`
+ text-align: center;
+`
 
 injectTapEventPlugin()
 
@@ -10,7 +15,7 @@ class Template extends Component {
   render(){
     return (
       <MuiThemeProvider>
-        <div>
+        <div id="App">
           <header>
             <h1>JR-Chat</h1>
             <RaisedButton

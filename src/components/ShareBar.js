@@ -6,9 +6,9 @@ class InputBar extends Component {
   render(){
     return (
         <div>
-          <RaisedButton></RaisedButton>
-          <RaisedButton></RaisedButton>
-          <RaisedButton></RaisedButton>
+          <RaisedButton>Share</RaisedButton>
+          <RaisedButton>Color</RaisedButton>
+          <RaisedButton>Clear</RaisedButton>
         </div>
     )
   }
